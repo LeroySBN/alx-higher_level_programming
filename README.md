@@ -20,7 +20,7 @@ Python Programming: An Introduction to Computer Science 3rd edition
 
 * The first line of all files should be exactly `#!/usr/bin/python3`
 
-* The code should use the [pycodestyle](./https://github.com/PyCQA/pycodestyle/issues/466)(version 2.8.*)
+* The code should use the [pycodestyle](./https://github.com/PyCQA/pycodestyle/issues/466) (version 2.8.*)
 
 * All files must be executable
 
@@ -28,7 +28,7 @@ Python Programming: An Introduction to Computer Science 3rd edition
 
 * All files should end with a new line
 
-* The first line of all files should be exactly `#!/bin/bash
+* The first line of all files should be exactly `#!/bin/bash`
 
 * All files must be executable
 
