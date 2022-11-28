@@ -4,6 +4,8 @@
 
 Write a Shell script that runs Python code that will be saved in the environment variable `$PYFILE`
 
+`export PYFILE=main.py`
+
 File: [0-run](./0-run), [main.py](./main.py)
 
 ## 1. Run inline
