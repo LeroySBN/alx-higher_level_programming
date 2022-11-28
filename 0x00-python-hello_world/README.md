@@ -26,22 +26,11 @@ File: [2-print.py](./2-print.py)
 
 Complete this [source code](https://github.com/holbertonschool/0x00.py/blob/master/3-print_number.py) in order to print the integer stored in the variable `number`, followed by `Battery street`, followed by a new line.
 
-* You are not allowed to cast the variable `number` into a string
-
-* Your code must be 3 lines long
-
-* You have to use f-strings tips
-
-
 File: [3-print_number.py](./3-print_number.py)
 
 ## 4. Print float
 
 Complete this [source code](https://github.com/holbertonschool/0x00.py/blob/master/4-print_float.py) in order to print the float stored in the variable `number` with a precision of 2 digits.
-
-* You are not allowed to cast number to string
-
-* You have to use f-strings
 
 File: [4-print_float.py](./4-print_float.py)
 
@@ -49,33 +38,17 @@ File: [4-print_float.py](./4-print_float.py)
 
 Complete this [source code](https://github.com/holbertonschool/0x00.py/blob/master/5-print_string.py) in order to print 3 times a string stored in the variable `str`, followed by its first 9 characters.
 
-* The output of the program should be: 3 times the value of str, followed by a new line, followed by the 9 first characters of str, followed by a new line
-
-* You are not allowed to use any loops or conditional statement
-
-* Your program should be maximum 5 lines long
-
 File: [5-print_string.py](./5-print_string.py)
 
 ## 6. Play with strings
 
 Complete this [source code](https://github.com/holbertonschool/0x00.py/blob/master/6-concat.py) to print `Welcome to Holberton School!`
 
-* You are not allowed to use any loops or conditional statements.
-
-* You have to use the variables `str1` and `str2` in your new line of code
-
-* Your program should be exactly 5 lines long
-
 Files: [6-concat.py](./6-concat.py)
 
 ## 7. Copy - Cut - Paste
 
-Complete this source code
-
-* You are not allowed to use any loops or conditional statements
-
-* Your program should be exactly 8 lines long
+Complete this [source code](https://github.com/holbertonschool/0x00.py/blob/master/7-edges.py)
 
 * `word_first_3` should contain the first 3 letters of the variable word
 
