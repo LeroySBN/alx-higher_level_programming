@@ -12,6 +12,8 @@ File: [0-run](./0-run), [main.py](./main.py)
 
 Write a Shell script that runs Python code that will be saved in the environment variable `$PYCODE`
 
+`export PYCODE='print(f"Best School: {88+10}")'`
+
 File: [1-run_inline](./1-run_inline)
 
 ## 2. Hello, print
