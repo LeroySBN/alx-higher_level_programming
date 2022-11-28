@@ -44,7 +44,7 @@ File: [5-print_string.py](./5-print_string.py)
 
 Complete this [source code](https://github.com/holbertonschool/0x00.py/blob/master/6-concat.py) to print `Welcome to Holberton School!`
 
-Files: [6-concat.py](./6-concat.py)
+File: [6-concat.py](./6-concat.py)
 
 ## 7. Copy - Cut - Paste
 
@@ -56,7 +56,7 @@ Complete this [source code](https://github.com/holbertonschool/0x00.py/blob/mast
 
 * `middle_word` should contain the value of the variable word without the first and last letters
 
-Files: [7-edges.py](./7-edges.py)
+File: [7-edges.py](./7-edges.py)
 
 ## 8. Create a new sentence
 
@@ -70,7 +70,7 @@ Complete this [source code](https://github.com/holbertonschool/0x00.py/blob/mast
 
 * You are not allowed to use string literals
 
-Files: [8-concat_edges.py](./8-concat_edges.py)
+File: [8-concat_edges.py](./8-concat_edges.py)
 
 ## 9. Easter Egg
 
@@ -78,7 +78,7 @@ Write a Python script that prints `"The Zen of Python", by TimPeters`, followed 
 
 * Script should  be maximum 98 characters long (please check with `wc -m 9-easter_egg.py`)
 
-Files: [9-easter_egg.py](./9-easter_egg.py)
+File: [9-easter_egg.py](./9-easter_egg.py)
 
 ## 10. Linked list cycle (Technical interview preparation)
 
