@@ -90,7 +90,9 @@ A function that checks for lowercase character.
 * You are not allowed to use `str.upper()` and `str.isupper()`
 * Tips: [ord()](https://docs.python.org/3.4/library/functions.html?highlight=ord#ord)
 
-File: [7-islower.py](./7-islower.py)
+`$ ./7-main.py`
+
+File: [7-islower.py](./7-islower.py), [7-main.py](./7-main.py)
 
 ## 8. To uppercase
 
