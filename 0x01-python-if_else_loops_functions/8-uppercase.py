@@ -10,4 +10,4 @@ def uppercase(str):
         else:
             strord[i] = chr(strord[i])
         ucase += strord[i]
-    print(f"{ucase}")
+    print("{}".format(ucase))
