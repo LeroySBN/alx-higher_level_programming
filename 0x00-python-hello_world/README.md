@@ -124,9 +124,7 @@ File: [101-compile](./101-compile)
 
 Write the Python function `def magic_calculation(a, b):` that does exactly the same as the following Python bytecode:
 
-`
-
-3           0 LOAD_CONST               1 (98)
+`3           0 LOAD_CONST               1 (98)
 
             3 LOAD_FAST                0 (a)
 
