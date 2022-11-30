@@ -88,11 +88,45 @@ Write a function in C that checks if a singly linked list has a cycle in it.
 
 * Return: 0 if there is no cycle, 1 if there is a cycle
 
+`gcc -Wall -Werror -Wextra -pedantic -std=gnu89 10-main.c 10-check_cycle.c 10-linked_lists.c -o cycle`
+
 Requirements
 
 * Allowed functions: `write`, `printf`, `putchar`, `puts`, `malloc`, `free`
 
 Files: [10-check_cycle.c](./10-check_cycle.c), [lists.h](./lists.h)
+
+## 11. Hello, write
+
+Python script that prints exactly `and that piece of art is useful - Dora Korpar, 2015-10-19`, followed by a new line.
+
+* Use the function `write` from the `sys` module
+
+* You are not allowed to use `print`
+
+* Your script should print to `stderr`
+
+* Your script should exit with the status code `1`
+
+File: [100-write.py](./100-write.py)
+
+## 12. Compile
+
+A script that compiles a Python script file.
+
+The Python file name will be stored in the environment variable `$PYFILE`
+
+The output filename has to be `$PYFILEc` (ex: `export PYFILE=my_main.py` => output filename: `my_main.pyc`)
+
+File: [101-compile](./101-compile)
+
+## 13. ByteCode -> Python #1 
+
+Write the Python function `def magic_calculation(a, b):` that does exactly the same as the following Python bytecode:
+
+* Tip: [Python bytecode](https://docs.python.org/3.4/library/dis.html)
+
+File: [102-magic_calculation.py](./102-magic_calculation.py)
 
 # Resources
 

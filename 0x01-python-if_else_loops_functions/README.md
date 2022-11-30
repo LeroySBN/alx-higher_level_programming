@@ -6,13 +6,13 @@ This program will assign a random signed number to the variable `number` each ti
 
 The output of the program should be: The number, followed by, if the number is greater than 0: is positive, if the number is 0: is zero if the number is less than 0: is negative
 
-File: [0-positive_or_negative.py](./0-positive_or_negative.py)
+**File**: [0-positive_or_negative.py](./0-positive_or_negative.py)
 
 ## 1. The last digit
 
 This program will assign a random signed number to the variable `number` each time it is executed. Complete the [source code](https://github.com/holbertonschool/0x01.py/blob/master/1-last_digit_py) in order to print the last digit of the number stored in the variable number
 
-File: [1-last_digit.py](./1-last_digit.py)
+**File**: [1-last_digit.py](./1-last_digit.py)
 
 ## 2. I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game
 
@@ -23,7 +23,7 @@ Write a program that prints the ASCII alphabet, in lowercase, not followed by a 
 * You are not allowed to store characters in a variable
 * You are not allowed to import any module
 
-File: [2-print_alphabet.py](./2-print_alphabet.py)
+**File**: [2-print_alphabet.py](./2-print_alphabet.py)
 
 ## 3. When I was having that alphabet soup, I never thought that it would pay off
 
@@ -35,7 +35,7 @@ Write a program that prints the ASCII alphabet, in lowercase, not followed by a 
 * You are not allowed to store characters in a variable
 * You are not allowed to import any module
 
-File: [3-print_alphabt.py](./3-print_alphabt.py)
+**File**: [3-print_alphabt.py](./3-print_alphabt.py)
 
 ## 4. Hexadecimal printing
 
@@ -46,7 +46,7 @@ Write a program that prints all numbers from `0` to `98` in decimal and in hexad
 * You are not allowed to store numbers or strings in a variable
 * You are not allowed to import any module
 
-File: [4-print_hexa.py](./4-print_hexa.py)
+**File**: [4-print_hexa.py](./4-print_hexa.py)
 
 ## 5. 00...99
 
@@ -60,7 +60,7 @@ Write a program that prints all numbers from `0` to `98`
 * You are not allowed to store numbers or strings in a variable
 * You are not allowed to import any module
 
-File: [5-print_comb2.py](./5-print_comb2.py)
+**File**: [5-print_comb2.py](./5-print_comb2.py)
 
 ## 6. Inventing is a combination of brains and materials. The more brains you use, the less material you need
 
@@ -77,7 +77,7 @@ Write a program that prints all possible different combinations of two digits.
 * You are not allowed to store numbers or strings in a variable
 * You are not allowed to import any module
 
-File: [6-print_comb3.py](./6-print_comb3.py)
+**File**: [6-print_comb3.py](./6-print_comb3.py)
 
 ## 7. islower
 
@@ -92,7 +92,7 @@ A function that checks for lowercase character.
 
 `$ ./7-main.py`
 
-File: [7-islower.py](./7-islower.py), [7-main.py](./7-main.py)
+**File**: [7-islower.py](./7-islower.py), [7-main.py](./7-main.py)
 
 ## 8. To uppercase
 
@@ -105,7 +105,7 @@ A function that prints a string in uppercase followed by a new line.
 * You are not allowed to use `str.upper()` and `str.isupper()`
 * Tips: [ord()](https://docs.python.org/3.4/library/functions.html?highlight=ord#ord)
 
-File: [8-uppercase.py](./8-uppercase.py)
+**File**: [8-uppercase.py](./8-uppercase.py)
 
 ## 9. There are only 3 colors, 10 digits, and 7 notes; it's what we do with them that's important
 
@@ -115,7 +115,7 @@ A function that prints the last digit of a number.
 * Returns the value of the last digit
 * You are not allowed to import any module
 
-File: [9-print_last_digit.py](./9-print_last_digit.py)
+**File**: [9-print_last_digit.py](./9-print_last_digit.py)
 
 ## 10. a + b
 
@@ -125,7 +125,7 @@ A function that adds two integers and returns the result.
 * Returns the value of `a + b`
 * You are not allowed to import any module
 
-Files: [10-add.py](./10-check_cycle.cadd.py)
+**File**s: [10-add.py](./10-check_cycle.cadd.py)
 
 ## 11. a ^ b
 
@@ -135,7 +135,7 @@ A function that computes `a` to the power of `b` and return the value.
 * Returns the value of `a ^ b`
 * You are not allowed to import any module
 
-File: [11-pow.py](./11-pow.py)
+**File**: [11-pow.py](./11-pow.py)
 
 ## 12. Fizz Buzz
 
@@ -147,7 +147,7 @@ A function that prints the numbers from 1 to 100 separated by a space.
 * Each element should be followed by a space
 * You are not allowed to import any module
 
-File: [12-fizzbuzz](./12-fizzbuzz)
+**File**: [12-fizzbuzz](./12-fizzbuzz)
 
 ## 13. Insert in sorted linked list (Technical interview preparation)
 
@@ -156,7 +156,9 @@ A function in C that inserts a number into a sorted singly linked list.
 * Prototype: `listint_t *insert_node(listint_t **head, int number);`
 * Return: the address of the new node, or `NULL` if it failed
 
-File: [13-insert_number.c](./13-insert_number.c), [lists.h](./lists.h)
+`gcc -Wall -Werror -Wextra -pedantic -std=gnu89 13-main.c linked_lists.c 13-insert_number.c -o insert`
+
+**File**: [13-insert_number.c](./13-insert_number.c), [lists.h](./lists.h)
 
 # Resources
 
@@ -169,4 +171,3 @@ File: [13-insert_number.c](./13-insert_number.c), [lists.h](./lists.h)
 ## Watch
 
 [IndentationError](https://www.youtube.com/watch?v=1QXOd2ZQs-Q)
-
