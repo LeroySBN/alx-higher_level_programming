@@ -6,6 +6,8 @@ Hello, World >> [0x00-python-hello_world](./0x00-python-hello_world)
 
 if/else, loops, functions >> [0x01-python-if_else_loops_functions](./0x01-python-if_else_loops_functions)
 
+imports & modules >> [0x02-python-import_modules](./0x02-python-import_modules)
+
 ## Resources
 
 ### Read
