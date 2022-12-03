@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-from sys import stdout
-stdout.write("#pythoniscool\n")
+from io import StringIO
+StringIO().write("#pythoniscool")
