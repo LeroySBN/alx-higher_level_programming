@@ -5,3 +5,11 @@ my_list = [1, 2, 3, 4, 6]
 new_list = multiply_list_map(my_list, 4)
 print(new_list)
 print(my_list)
+
+print("__")
+print("__")
+
+my_list = [11, 42, 23, 40, 36]
+new_list = multiply_list_map(my_list, 2)
+print(new_list)
+print(my_list)
