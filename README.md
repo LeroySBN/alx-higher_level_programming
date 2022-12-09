@@ -1,7 +1,6 @@
 # Python (programming language)
 
-## Basics
-
+## Fundamentals
 * Hello, World >> [0x00-python-hello_world](./0x00-python-hello_world)
 * if/else, loops, functions >> [0x01-python-if_else_loops_functions](./0x01-python-if_else_loops_functions)
 * imports & modules >> [0x02-python-import_modules](./0x02-python-import_modules)
@@ -9,16 +8,14 @@
 * More Data Structures: Set, Dictionary >> [0x04-python-more_data_structures](./0x04-python-more_data_structures)
 
 ## Resources
-### Read
 1. Python Programming: An Introduction to Computer Science 3rd edition
 2. [The Python Tutorial](https://docs.python.org/3.4/tutorial/index.html)
-
-### Watch
-1. [Learn to Program](https://www.youtube.com/playlist?list=PLGLfVvz_LVvTn3cK5e6LjhgGiSeVlIRwt)
+3. [Learn to Program](https://www.youtube.com/playlist?list=PLGLfVvz_LVvTn3cK5e6LjhgGiSeVlIRwt)
+4. [ThePythonGuru](./https://thepythonguru.com/)
 
 ## More info: Requirements
-### Python Scripts
 
+### Python Scripts
 * All files will be interpreted/compiled on Ubuntu 20.04 LTS using python3 (version 3.8.5)
 * All files should end with a new line
 * The first line of all files should be exactly `#!/usr/bin/python3`
@@ -26,13 +23,11 @@
 * All files must be executable
 
 ### Shell Scripts
-
 * All files should end with a new line
 * The first line of all files should be exactly `#!/bin/bash`
 * All files must be executable
 
 ### C Scripts
-
 * All files should be compiled on Ubuntu 20.04 LTS using gcc with tags
 `gcc -Wall -Werror -Wextra -pedantic -std=gnu89`
 * All files should end with a new line
