@@ -1,4 +1,9 @@
 # Python (programming language)
+## Resources
+1. Python Programming: An Introduction to Computer Science 3rd edition
+2. [The Python Tutorial](https://docs.python.org/3.4/tutorial/index.html)
+3. [Learn to Program](https://www.youtube.com/playlist?list=PLGLfVvz_LVvTn3cK5e6LjhgGiSeVlIRwt)
+4. [ThePythonGuru](./https://thepythonguru.com/)
 
 ## Fundamentals
 * Hello, World >> [0x00-python-hello_world](./0x00-python-hello_world)
@@ -6,12 +11,7 @@
 * imports & modules >> [0x02-python-import_modules](./0x02-python-import_modules)
 * Data Structures: Lists, Tuples >> [0x03-python-data_structures](./0x03-python-data_structures)
 * More Data Structures: Set, Dictionary >> [0x04-python-more_data_structures](./0x04-python-more_data_structures)
-
-## Resources
-1. Python Programming: An Introduction to Computer Science 3rd edition
-2. [The Python Tutorial](https://docs.python.org/3.4/tutorial/index.html)
-3. [Learn to Program](https://www.youtube.com/playlist?list=PLGLfVvz_LVvTn3cK5e6LjhgGiSeVlIRwt)
-4. [ThePythonGuru](./https://thepythonguru.com/)
+* Exceptions >> [0x05-python-exceptions](./0x05-python-exceptions)
 
 ## More info: Requirements
 
