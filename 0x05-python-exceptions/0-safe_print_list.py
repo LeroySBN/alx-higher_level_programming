@@ -1,14 +1,15 @@
 #!/usr/bin/python3
 def safe_print_list(my_list=[], x=0):
     try:
-        list1 = ""
-        for elem in range(x):
-            list1 += str(my_list[elem])
-        #print(list1[0:x])
-        return (x)
+        new_list = my_list[:x]
+        print(''.join(str(s) for s in new_list))
+        count = 0
+        for elem in new_list:
+            count += 1
+        return count
     except IndexError:
-        list1 = ""
-        for i,elem in enumerate(my_list):
-            list1 += str(elem)
-        #print(list1)
-        return (i+1)
+        num = my_list[-1:]
+        counter = 0
+        for elem in my_list:
+            counter += 1
+        return
