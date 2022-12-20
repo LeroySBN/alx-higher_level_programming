@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 class Square:
-    def square():
+    def square(self):
         """Defines a square.
         """
         pass
