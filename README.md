@@ -13,6 +13,9 @@
 * More Data Structures: Set, Dictionary >> [0x04-python-more_data_structures](./0x04-python-more_data_structures)
 * Exceptions >> [0x05-python-exceptions](./0x05-python-exceptions)
 
+## Object Oriented Programming
+* Classes and Objects >> [0x06-python-classes](./0x06-python-classes)
+
 ## More info: Requirements
 
 ### Python Scripts
