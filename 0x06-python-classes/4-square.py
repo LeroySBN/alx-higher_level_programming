@@ -19,19 +19,10 @@ class Square:
         """The Square __init__ method initializes the attribute 'size'.
 
         Args:
-            __size (int): size of the square - private attribute
-
-        Raises:
-            TypeError: If size is not integer
-            ValueError: If size is less than 0
+            size (int): size of the square
 
         """
-        if type(size) is not int:
-            raise TypeError("size must be an integer")
-        elif size < 0:
-            raise ValueError("size must be >= 0")
-        else:
-            self.__size = size
+        self.size = size
 
     def area(self):
         """Square area method.
@@ -41,11 +32,21 @@ class Square:
         """
         return (self.__size ** 2)
 
+    @property
+    def size(self):
+        """Square getter method.
+
+        Returns:
+            Size of square
+        """
+        return self.__size
+
+    @size.setter
     def size(self, value):
         """Square setter method.
 
         Args:
-            value (int): size of the square
+            value (int): sets size to value
 
         Raises:
             TypeError: If value is not integer
@@ -58,11 +59,3 @@ class Square:
             raise ValueError("size must be >= 0")
         else:
             self.__size = value
-
-    def size(self):
-        """Square getter method.
-
-        Returns:
-            Size of square
-        """
-        return self.__size
