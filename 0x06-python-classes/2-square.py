@@ -20,17 +20,7 @@ class Square:
             if size < 0:
                 raise ValueError("size must be >= 0")
             self.__size = size
-        except:
+        except TypeError:
             raise TypeError("size must be an integer")
 
-    def square():
-        """Square method.
-
-        Args:
-            None
-
-        Returns:
-            None
-        """
-        pass
     pass
