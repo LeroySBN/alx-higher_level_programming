@@ -32,11 +32,3 @@ try:
     print(my_square_4.__dict__)
 except Exception as e:
     print(e)
-
-
-try:
-    my_square_3 = Square(1000)
-    print(type(my_square_3))
-    print(my_square_3.__dict__)
-except Exception as e:
-    print(e)
