@@ -14,14 +14,4 @@ class Square:
         """
         self.__size = size
 
-    def square():
-        """Square method.
-
-        Args:
-            None
-
-        Returns:
-            None
-        """
-        pass
     pass
