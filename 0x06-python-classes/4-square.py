@@ -34,10 +34,35 @@ class Square:
             self.__size = size
 
     def area(self):
-        """Class Square method.
+        """Square area method.
 
         Returns:
             Area of square
         """
-        area = self.__size * self.__size
-        return area
+        return (self.__size ** 2)
+
+    def size(self, value):
+        """Square setter method.
+
+        Args:
+            value (int): size of the square
+
+        Raises:
+            TypeError: If value is not integer
+            ValueError: If value is less than 0
+
+        """
+        if type(value) is not int:
+            raise TypeError("size must be an integer")
+        elif value < 0:
+            raise ValueError("size must be >= 0")
+        else:
+            self.__size = value
+
+    def size(self):
+        """Square getter method.
+
+        Returns:
+            Size of square
+        """
+        return self.__size
