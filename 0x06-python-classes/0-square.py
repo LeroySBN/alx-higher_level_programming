@@ -4,14 +4,4 @@
 
 class Square:
     """Defines a Square instance"""
-    def square():
-        """Square method.
-
-        Args:
-            None
-
-        Returns:
-            None
-        """
-        pass
     pass
