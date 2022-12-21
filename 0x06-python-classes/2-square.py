@@ -6,15 +6,14 @@ class Square:
     """Defines a Square instance"""
 
     def __init__(self, size=0):
-        """The Square __init__ method
-        Initializes the attribute 'size'
+        """The Square __init__ method initializes the attribute 'size'.
 
         Args:
             size (int): size of the square
                 this is a private attribute
 
         Raises:
-            TypeError: If size is not int
+            TypeError: If size is not integer
             ValueError: If size is less than 0
 
         """
@@ -25,11 +24,11 @@ class Square:
         except TypeError:
             raise TypeError("size must be an integer")
 
-    def square():
+    def square(self, size):
         """Square method.
 
         Args:
-            None
+            size (int): size of the square
 
         Returns:
             None
