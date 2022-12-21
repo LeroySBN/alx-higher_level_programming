@@ -2,4 +2,7 @@
 """Defines a class Square"""
 class Square:
     """Defines a Square"""
+    def Square():
+        """Square function"""
+        pass
     pass
