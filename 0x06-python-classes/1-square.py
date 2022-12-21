@@ -1,4 +1,27 @@
 #!/usr/bin/python3
-class Square():
+"""Defines a class Square"""
+
+
+class Square(size):
+    """Defines a Square instance"""
+
     def __init__ (self, size):
+        """The Square __init__ method
+
+        Args:
+            size (int): size of the square
+
+        """
         self.__size = size
+
+    def square():
+        """Square method.
+
+        Args:
+            None
+
+        Returns:
+            None
+        """
+        pass
+    pass
