@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Defines a class Square"""
+"""Defines a class 'Square'"""
 
 
 class Square:
@@ -9,8 +9,7 @@ class Square:
         """The Square __init__ method initializes the attribute 'size'.
 
         Args:
-            size (int): size of the square
-                this is a private attribute
+            size (int): size of the square - private attribute
 
         Raises:
             TypeError: If size is not integer
@@ -24,11 +23,11 @@ class Square:
         except TypeError:
             raise TypeError("size must be an integer")
 
-    def square(self, size):
+    def square():
         """Square method.
 
         Args:
-            size (int): size of the square
+            None
 
         Returns:
             None
