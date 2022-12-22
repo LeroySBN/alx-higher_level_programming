@@ -20,6 +20,7 @@ class Square:
 
         Args:
             size (int): size of the square
+            position (tuple):  coordinates of the square
 
         """
         self.size = size
@@ -27,7 +28,7 @@ class Square:
 
     @property
     def size(self):
-        """Square getter method.
+        """Square getter method for size.
 
         Returns:
             Size of square
@@ -36,7 +37,7 @@ class Square:
 
     @size.setter
     def size(self, value):
-        """Square setter method.
+        """Square setter method for size.
 
         Args:
             value (int): sets size to value
@@ -53,6 +54,29 @@ class Square:
         else:
             self.__size = value
 
+    @property
+    def position(self):
+        """Square getter method for position"""
+        return self.__position
+
+    @position.setter
+    def position(self, value):
+        """Square setter method for position
+
+        Args:
+            value (int): sets position to value
+
+        Raises:
+            TypeError: If tuple is not of 2 positive ints
+
+        """
+        if type(value) is not tuple or len(value) != 2 or \
+           type(value[0]) is not int or type(value[1]) is not int or \
+           value[0] < 0 or value[1] < 0:
+            raise TypeError("position must be a tuple of 2 positive integers")
+        else:
+            self.__position = value
+
     def area(self):
         """Square area method.
 
@@ -62,30 +86,10 @@ class Square:
         return (self.__size ** 2)
 
     def my_print(self):
-        """Prints in stdout the square with the character '#'"""
         if self.__size == 0:
             print("")
         else:
-            for i in range(self.__size):
-                if self._position:
-                    for k in range(self._position[0]):
-                        print(" ", end="")
-                for j in range(self.__size):
-                    print("#", end="")
-                print("")
-
-    @property
-    def position(self):
-        """Square getter method for position"""
-        return self._position
-
-    @position.setter
-    def position(self, value):
-        if (len(value) != 2):
-            raise TypeError("position must be a tuple of 2 positive integers")
-        elif (type(value[0]) is not int) and (value[0] < 0):
-            raise TypeError("position must be a tuple of 2 positive integers")
-        elif (type(value[1]) is not int) and (value[1] < 0):
-            raise TypeError("position must be a tuple of 2 positive integers")
-        else:
-            self._position = value
+            print("\n" * self.__position[1], end="")
+            print("\n".join([" " * self.__position[0] +
+                             "#" * self.__size
+                             for rows in range(self.__size)]))
