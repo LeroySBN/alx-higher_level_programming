@@ -150,4 +150,6 @@ class Rectangle:
         Args:
             size (int): width and height of the square
         """
+        if type(size) is not int or size < 0:
+            size = 0
         return cls(size, size)
