@@ -104,10 +104,11 @@ class Rectangle:
     def __str__(self):
         """The rectangle's string representation method for users"""
         if self.__width == 0 or self.__height == 0:
-            return 0
+            return ""
         else:
-            return\
-                "\n".join(["#" * self.__width for i in range(self.__height)])
+            sw = self.__width
+            sh = self.__height
+            return "\n".join(["#" * sw for i in range(sh)])
 
     def __repr__(self):
         """The rectangle's string representation method"""
