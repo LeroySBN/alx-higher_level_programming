@@ -112,7 +112,11 @@ class Rectangle:
             return "\n".join([f"{self.print_symbol}" * sw for i in range(sh)])
 
     def __repr__(self):
-        """The rectangle's string representation method"""
+        """The rectangle's string representation method
+
+        Returns:
+            new instance of Rectangle
+        """
         return f"Rectangle({self.__width}, {self.__height})"
 
     def __del__(self):
