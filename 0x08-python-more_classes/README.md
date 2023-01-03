@@ -37,7 +37,7 @@ Class `Rectangle` that further defines a rectangle (based on `2-rectangle.py`)
 
 Class `Rectangle` that further defines a rectangle (based on `3-rectangle.py`)
 
-**File**: [3-rectangle.py](./3-rectangle.py)
+**File**: [4-rectangle.py](./4-rectangle.py)
 
 ### 5. Detect instance deletion
 
