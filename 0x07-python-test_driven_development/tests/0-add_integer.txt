@@ -53,10 +53,10 @@ Test for no argument:
 	 ...
 	 TypeError: a must be an integer
 	 
-	  >>> print(add_integer(2, None))
+	 >>> print(add_integer(2, None))
 	 Traceback (most recent call last):
 	 ...
-	 TypeError: a must be an integer
+	 TypeError: b must be an integer
 
 Test for other data types
 	 >>> print(add_integer("ALX"))
@@ -72,4 +72,4 @@ Test for other data types
 	 >>> print(add_integer("ALX", "School"))
 	 Traceback (most recent call last):
 	 ...
-	 TypeError: b must be an integer
+	 TypeError: a must be an integer
