@@ -8,17 +8,17 @@ SUCCESS CASES:
 Test for signed and unsigned int and float:
 	>>> print(add_integer(1, 2))
 	3
-	>>> print(add_integer(1, 2.2))
-	3.2
 	>>> print(add_integer(100, -2))
 	98
 	>>> print(add_integer(100.3, -2))
-	98.3
-	>>> print(add_integer(100.3, -2))
 	98
+	>>> print(add_integer(100, 2.2))
+	102
 
 Test for default value b=98:
-	>>> print(add_integer(2))
+	>>> add_integer(2)
+	100
+	>>> add_integer(2.2)
 	100
 
 FAIL CASES:
@@ -30,7 +30,7 @@ Test for no argument:
 	 TypeError: a must be an integer
 
 Test for other data types
-	 >>> print(add_integer("ALX", 4))
+	 >>> print(add_integer("ALX"))
 	 Traceback (most recent call last):
 	 ...
 	 TypeError: a must be an integer
