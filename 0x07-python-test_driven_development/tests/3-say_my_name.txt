@@ -6,6 +6,8 @@ This module defines a function say_my_name that prints two string texts, first_n
 
 Note: last_name is optional
 
+# run test with python3 -m doctest -v ./tests/3-say_my_name.txt
+
 Usage
 =====
 
