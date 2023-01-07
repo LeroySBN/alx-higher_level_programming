@@ -1,21 +1,53 @@
+==============================
+How to use 2-matrix_divided.py
+==============================
+
+This module defines a matrix divider function 2-matrix_divider(matrix, div) that divides each integer/float element in the matrix with the integer div, and returns the transformed matrix.
+
+Run test with python3 -m doctest -v ./tests/2-matrix_divider.txt
+
+Usage
+=====
+
+import method to test
 >>> matrix_divided = __import__('2-matrix_divided').matrix_divided
 
->>> matrix_divided([[1, 2, 3], ["This", "is", "Python"]], 2)
-Traceback (most recent call last):
-	...
-TypeError: matrix must be a matrix (list of lists) of integers/floats
+SUCCESS CASES:
 
->>> matrix_divided([[1, 2, 3], [4, 5]], -2)
-Traceback (most recent call last):
-	...
-TypeError: Each row of the matrix must have the same size
+		>>> print(matrix_divided([[1, 2, 3],[4, 5, 6]], 3))
+		[[0.33, 0.67, 1.0], [1.33, 1.67, 2.0]]
 
->>> matrix_divided([[1, 2, 3], [4, 5, 6]], "School")
-Traceback (most recent call last):
-	...
-TypeError: div must be a number
+		>>> print(matrix_divided([[-1, 2.2, 3], [4.4, -5, 6]], 3))
+		[[-0.33, 0.73, 1.0], [1.47, -1.67, 2.0]]
 
->>> matrix_divided([[1, 2, 3], [4, 5, 6]], 0)
-Traceback (most recent call last):
-	...
-ZeroDivisionError: division by zero
+FAIL CASES:
+
+Test for string in matrix:
+	 >>> matrix_divided([["ABC", "easy", "as"],[1, 2, 3]], 2)
+	 Traceback (most recent call last):
+	 ...
+	 TypeError: matrix must be a matrix (list of lists) of integers/floats
+
+Test for a imbalanced matrix row
+	 >>> matrix_divided([[1, 2, 3], [4, 5]], -2)
+	 Traceback (most recent call last):
+	 ...
+	 TypeError: Each row of the matrix must have the same size
+
+Test div as 0
+	 >>> matrix_divided([[1, 2, 3], [4, 5, 6]], 0)
+	 Traceback (most recent call last):
+	 ...
+	 ZeroDivisionError: division by zero
+
+Test div for other data types
+	 >>> matrix_divided([[1, 2, 3], [4, 5, 6]], NaN)
+	 Traceback (most recent call last):
+	 ...
+	 ZeroDivisionError: division by zero
+
+	 >>> matrix_divided([[1, 2, 3], [4, 5, 6]], "School")
+	 Traceback (most recent call last):
+	 ...
+	 TypeError: div must be a number
+
