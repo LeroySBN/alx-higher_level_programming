@@ -9,10 +9,14 @@ Defines a sum function
 def add_integer(a, b=98):
     """
     Sum function add_integer that returns sum of a and b
+
+    Args:
+        a (int): arg 1
+        b (int): arg 2
     """
-    if not isinstance(a, (int, float)):
+    if not isinstance(a, (int, float)) and a is None:
         raise TypeError("a must be an integer")
     elif not isinstance(b, (int, float)):
         raise TypeError("b must be an integer")
     else:
-        return a + b
+        return int(a + b)
