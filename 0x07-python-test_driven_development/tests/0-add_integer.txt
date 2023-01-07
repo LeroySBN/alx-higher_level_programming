@@ -11,7 +11,7 @@ Test for signed and unsigned int and float:
 	>>> print(add_integer(100, -2))
 	98
 	>>> print(add_integer(100.3, -2))
-	98.3
+	98
 
 Test for default value b=98:
 	>>> print(add_integer(2))
