@@ -1,17 +1,70 @@
+===========================
+How to use 3-say_my_name.py
+===========================
+
+This module defines a function say_my_name that prints two string texts, first_name and last_name.
+
+Usage
+=====
+
+import method to test
 >>> say_my_name = __import__('3-say_my_name').say_my_name
 
->>> say_my_name("John", "Smith")
-My name is John Smith
+SUCCESS CASES:
 
->>> say_my_name("Bob")
-My name is Bob 
+		>>> say_my_name("John", "Smith")
+		My name is John Smith
 
->>> say_my_name(12, "White")
-Traceback (most recent call last):
-	...
-TypeError: first_name must be a string
+Test for first_name only:
+		>>> say_my_name("Bob")
+		My name is Bob
 
->>> say_my_name("Guido", 1991)
-Traceback (most recent call last):
-	...
-TypeError: last_name must be a string
+Test for last_name only:
+		>>> say_my_name("", "Bond")
+		My name is Bond
+
+FAIL CASES
+
+Test for different data types for first_name
+	 >>> say_my_name(12, "White")
+	 Traceback (most recent call last):
+	 ...
+	 TypeError: first_name must be a string
+
+	 >>> say_my_name(None, "White")
+	 Traceback (most recent call last):
+	 ...
+	 TypeError: first_name must be a string
+
+Test for different data types for last_name:
+	 >>> say_my_name("Guido", 1991)
+	 Traceback (most recent call last):
+	 ...
+	 TypeError: last_name must be a string
+
+	 >>> say_my_name("Guido", None)
+	 Traceback (most recent call last):
+	 ...
+	 TypeError: last_name must be a string
+
+Test for empty strings:
+	 
+	 >>> say_my_name("", "Torvalds")
+	 Traceback (most recent call last):
+	 ...
+	 TypeError: first_name must be a string
+
+	 >>> say_my_name(" ", "Kernighan")
+	 Traceback (most recent call last):
+	 ...
+	 TypeError: first_name must be a string
+
+	 >>> say_my_name("Guido", "")
+	 Traceback (most recent call last):
+	 ...
+	 TypeError: last_name must be a string
+
+	 >>> say_my_name("Guido", " ")
+	 Traceback (most recent call last):
+	 ...
+	 TypeError: last_name must be a string
