@@ -1,7 +1,7 @@
 import method to test
 >>> add_integer = __import__('0-add_integer').add_integer
 
-SUCCESS CASES
+SUCCESS CASES:
 
 Test for signed and unsigned int and float
 	>>> print(add_integer(1, 2))
@@ -9,27 +9,25 @@ Test for signed and unsigned int and float
 	>>> print(add_integer(100, -2))
 	98
 	>>> print(add_integer(100.3, -2))
-	98
+	98.3
 
-Test for default value b = 98
+Test for default value b=98
 	>>> print(add_integer(2))
 	100
 
-FAIL CASES
+FAIL CASES:
 	 
-Test for argument None
+Test for no argument
 	 >>> print(add_integer(None))
 	 Traceback (most recent call last):
 	 ...
 	 TypeError: a must be an integer
 
-Test for string input for argument a
-	 >>> print(add_integer("ALX"))
+Test for other data types
+	 >>> print(add_integer("ALX", 4))
 	 Traceback (most recent call last):
 	 ...
 	 TypeError: a must be an integer
-
-Test for string input for argument b
 	 >>> print(add_integer(4, "School"))
 	 Traceback (most recent call last):
 	 ...
