@@ -4,6 +4,8 @@ How to use 3-say_my_name.py
 
 This module defines a function say_my_name that prints two string texts, first_name and last_name.
 
+Note: last_name is optional
+
 Usage
 =====
 
@@ -47,10 +49,9 @@ Test for different data types for last_name:
 	 ...
 	 TypeError: last_name must be a string
 
-	 >>> say_my_name("Guido", None)
-	 Traceback (most recent call last):
-	 ...
-	 TypeError: last_name must be a string
+	 >>> say_my_name({"Actor": "Jean"}, ["Claude", "Van", "Damme"])
+    Traceback (most recent call last):
+    TypeError: last_name must be a string
 
 Test for empty strings:
 	 
@@ -63,13 +64,3 @@ Test for empty strings:
 	 Traceback (most recent call last):
 	 ...
 	 TypeError: first_name must be a string
-
-	 >>> say_my_name("Guido", "")
-	 Traceback (most recent call last):
-	 ...
-	 TypeError: last_name must be a string
-
-	 >>> say_my_name("Guido", " ")
-	 Traceback (most recent call last):
-	 ...
-	 TypeError: last_name must be a string
