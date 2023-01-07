@@ -4,15 +4,15 @@ import method to test
 SUCCESS CASES
 
 Test for signed and unsigned int and float
-	>>> add_integer(1, 2)
+	>>> print(add_integer(1, 2))
 	3
-	>>> add_integer(100, -2)
+	>>> print(add_integer(100, -2))
 	98
-	>>> add_integer(100.3, -2)
+	>>> print(add_integer(100.3, -2))
 	98
 
 Test for default value b = 98
-	>>> add_integer(2)
+	>>> print(add_integer(2))
 	100
 
 FAIL CASES
