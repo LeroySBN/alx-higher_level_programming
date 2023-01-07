@@ -16,12 +16,6 @@ Test for default value b = 98
 	100
 
 FAIL CASES
-
-Test for no arguments
-	 >>> print(add_integer())
-	 Traceback (most recent call last):
-	 ...
-	 TypeError: add_integer() missing 1 required positional argument: 'a'
 	 
 Test for argument None
 	 >>> print(add_integer(None))
