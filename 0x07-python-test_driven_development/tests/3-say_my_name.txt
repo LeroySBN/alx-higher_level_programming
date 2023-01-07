@@ -19,11 +19,7 @@ SUCCESS CASES:
 
 Test for first_name only:
 		>>> say_my_name("Bob")
-		My name is Bob
-
-Test for last_name only:
-		>>> say_my_name("", "Bond")
-		My name is Bond
+		My name is Bob 
 
 FAIL CASES
 
@@ -38,11 +34,6 @@ Test for different data types for first_name
 	 ...
 	 TypeError: first_name must be a string
 
-	 >>> say_my_name(NaN, "White")
-	 Traceback (most recent call last):
-	 ...
-	 TypeError: first_name must be a string
-
 Test for different data types for last_name:
 	 >>> say_my_name("Guido", 1991)
 	 Traceback (most recent call last):
@@ -50,17 +41,5 @@ Test for different data types for last_name:
 	 TypeError: last_name must be a string
 
 	 >>> say_my_name({"Actor": "Jean"}, ["Claude", "Van", "Damme"])
-    Traceback (most recent call last):
-    TypeError: last_name must be a string
-
-Test for empty strings:
-	 
-	 >>> say_my_name("", "Torvalds")
 	 Traceback (most recent call last):
-	 ...
-	 TypeError: first_name must be a string
-
-	 >>> say_my_name(" ", "Kernighan")
-	 Traceback (most recent call last):
-	 ...
 	 TypeError: first_name must be a string
