@@ -36,6 +36,11 @@ Test for different data types for first_name
 	 ...
 	 TypeError: first_name must be a string
 
+	 >>> say_my_name(NaN, "White")
+	 Traceback (most recent call last):
+	 ...
+	 TypeError: first_name must be a string
+
 Test for different data types for last_name:
 	 >>> say_my_name("Guido", 1991)
 	 Traceback (most recent call last):
