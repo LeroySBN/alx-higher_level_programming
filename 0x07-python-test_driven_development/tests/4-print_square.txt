@@ -16,9 +16,10 @@ SUCCESS CASES:
 
 Test positive int size:
      >>> print_square(0)
+	 <BLANKLINE>
 
-     >>> print_square(1)
-     #
+	 >>> print_square(1)
+	 #
 
      >>> print_square(5)
      #####
@@ -29,7 +30,7 @@ Test positive int size:
 
 FAIL CASES:
 
-Test negative int size:
+Test negative argument size:
      >>> print_square(-1)
      Traceback (most recent call last):
      ...
@@ -40,7 +41,7 @@ Test negative int size:
 	 ...
 	 TypeError: size must be an integer
 
-Test other data types:
+Test other invalid data types:
      >>> print_square(1.5)
      Traceback (most recent call last):
      ...
@@ -62,3 +63,8 @@ Test no arguments
      Traceback (most recent call last):
      ...
      TypeError: print_square() missing 1 required positional argument: 'size'
+
+	 >>> print_square(None)
+	 Traceback (most recent call last):
+	 ...
+	 TypeError: size must be an integer
