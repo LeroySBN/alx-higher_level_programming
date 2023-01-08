@@ -69,7 +69,7 @@ A class `Square` that define a square based on `4-square.py`.
 **File**: [102-square.py](./102-square.py)
 
 ### 10. ByteCode -> Python #5
-Write the class `MagicClass` that does exactly the same as the following Python bytecode:
+A class `MagicClass` that does exactly the same as the following Python bytecode:
 
 ```
 Disassembly of __init__:
