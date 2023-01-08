@@ -12,7 +12,7 @@ class TestMaxInteger(unittest.TestCase):
     def test_ordered_list(self):
         """Test an ordered list of integers"""
         ordered = [1, 2, 3, 4]
-        self.assertEqual(max_integer(ordered, 4))
+        self.assertEqual(max_integer(ordered), 4)
 
     def test_unordered_list(self):
         """Test an unordered list of integers."""
