@@ -4,49 +4,45 @@
 
 
 class Node:
-    """Defines a node of a singly linked list"""
+    """Defines a singly-linked list."""
 
     def __init__(self, data, next_node=None):
-        """Instance initialization method
-
+        """Initialize a new Node.
         Args:
-            data (int): value to be saved in the node
-            next_node: next Node if it exists
+            data (int): The data of the new Node.
+            next_node (Node): The next node of the new Node.
         """
         self.data = data
         self.next_node = next_node
 
     @property
     def data(self):
-        """Data getter method"""
-        return self.__data
+        """Get/set the data of the Node."""
+        return (self.__data)
 
     @data.setter
     def data(self, value):
-        """Data setter method"""
         if not isinstance(value, int):
-            raise TypeError("data muat be an integer")
+            raise TypeError("data must be an integer")
         self.__data = value
 
     @property
     def next_node(self):
-        """Next Node getter method"""
-        return self.__next_node
+        """Get/set the next_node of the Node."""
+        return (self.__next_node)
 
     @next_node.setter
     def next_node(self, value):
-        """Next Node setter method"""
         if not isinstance(value, Node) and value is not None:
-            raise TypeError("next_node muat be a Node object")
+            raise TypeError("next_node must be a Node object")
         self.__next_node = value
 
 
-class SinglyLInkedList:
-    """
-    Defines a singly linked list
-    """
+class SinglyLinkedList:
+    """Represent a singly-linked list."""
+
     def __init__(self):
-        """Instance initialization method"""
+        """Initalize a new SinglyLinkedList."""
         self.__head = None
 
     def sorted_insert(self, value):
