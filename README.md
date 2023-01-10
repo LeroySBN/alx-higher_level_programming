@@ -6,17 +6,18 @@
 4. [ThePythonGuru](./https://thepythonguru.com/)
 
 ## Fundamentals
-* Hello, World >> [0x00-python-hello_world](./0x00-python-hello_world)
-* if/else, loops, functions >> [0x01-python-if_else_loops_functions](./0x01-python-if_else_loops_functions)
-* imports & modules >> [0x02-python-import_modules](./0x02-python-import_modules)
-* Data Structures: Lists, Tuples >> [0x03-python-data_structures](./0x03-python-data_structures)
-* More Data Structures: Set, Dictionary >> [0x04-python-more_data_structures](./0x04-python-more_data_structures)
-* Exceptions >> [0x05-python-exceptions](./0x05-python-exceptions)
-* Classes and Objects >> [0x06-python-classes](./0x06-python-classes)
-* Test driven development >> [0x07-python-test_driven_development](./0x07-python-test_driven_development)
-* More Classes and Objects >> [0x08-python-more_classes](./0x08-python-more_classes)
-* Everything is object >> [0x09-python-everything_is_object](./0x09-python-everything_is_object)
-* Inheritance >> [0x0A-python-inheritance](./0x0A-python-inheritance)
+* Hello, World -> [0x00-python-hello_world](./0x00-python-hello_world)
+* if/else, loops, functions -> [0x01-python-if_else_loops_functions](./0x01-python-if_else_loops_functions)
+* imports & modules -> [0x02-python-import_modules](./0x02-python-import_modules)
+* Data Structures: Lists, Tuples -> [0x03-python-data_structures](./0x03-python-data_structures)
+* More Data Structures: Set, Dictionary -> [0x04-python-more_data_structures](./0x04-python-more_data_structures)
+* Exceptions -> [0x05-python-exceptions](./0x05-python-exceptions)
+* Classes and Objects -> [0x06-python-classes](./0x06-python-classes)
+* Test driven development -> [0x07-python-test_driven_development](./0x07-python-test_driven_development)
+* More Classes and Objects -> [0x08-python-more_classes](./0x08-python-more_classes)
+* Everything is object -> [0x09-python-everything_is_object](./0x09-python-everything_is_object)
+* Inheritance -> [0x0A-python-inheritance](./0x0A-python-inheritance)
+* Input/Output -> [0x0B-python-input_output](./0x0B-python-input_output)
 
 ## More info: Requirements
 
