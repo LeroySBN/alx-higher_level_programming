@@ -81,3 +81,13 @@ A function `def pascal_triangle(n):` that returns a list of lists of integers re
 * You can assume `n` will be always an integer
 
 File: [12-pascal_triangle.py](./12-pascal_triangle.py)
+
+13. Search and update
+A function that inserts a lin of text to a file, after each line containing a specific string.
+
+File: [100-append_after.py](./100-append_after.py)
+
+14. Log parsing
+A script that reads `stdin` line by line and computes metricss.
+
+File: [101-stats.py](./101-stats.py)

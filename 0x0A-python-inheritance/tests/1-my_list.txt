@@ -13,6 +13,9 @@ First import the method to test
 Test for inheritance by appending
 	  >>> my_list = MyList()
 
+	  >> my_list
+	  []
+
 	  >>> my_list.append(1)
 
 	  >>> my_list.append(4)
@@ -41,3 +44,8 @@ SUCCESS CASES:
 		>>> my_list = MyList()
 
 		>>> my_list.print_sorted()
+
+		>>> my_list = MyList()
+
+		>>> my_list.print_sorted()
+		[]
