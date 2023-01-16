@@ -39,7 +39,6 @@ class Rectangle(Base):
             raise ValueError("height must be > 0")
         self.__height = value
 
-
     @property
     def x(self):
         """Getter method for x"""
@@ -53,7 +52,6 @@ class Rectangle(Base):
         if value < 0:
             raise ValueError("x must be >= 0")
         self.__x = value
-
 
     @property
     def y(self):
@@ -79,11 +77,13 @@ class Rectangle(Base):
             print("")
         rw, rh = self.width self.height
         rx, ry = self.x self.y
-        return "{\n}".join([f"" for y in range(ry)][f"#" * rw for i in range(rh)])
+        display_output = [f"" for y in range(ry)][f"#" * rw for i in range(rh)]
+        return "{\n}".join(display_ouput)
 
     def __str__(self):
         """String representation of rectangle instance"""
-        str_rep = f"[Rectangle] ({self.id}) {self.x}/{self.y} - {self.width}/{self.height}"
+        str_rep = "[Rectangle] ({}) {}/{} - {}/{}".\
+            format(self.id, self.x, self.y, self.width, self.height)
         return str_rep
 
     def update(self, *args, **kwargs):
