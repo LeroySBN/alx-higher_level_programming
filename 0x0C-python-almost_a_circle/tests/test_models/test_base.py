@@ -534,8 +534,7 @@ class TestBase_load_from_file_csv(unittest.TestCase):
         s1 = Square(5, 1, 3, 3)
         s2 = Square(9, 5, 2, 3)
         Square.save_to_file_csv([s1, s2])
-        o
-utput = Square.load_from_file_csv()
+        output = Square.load_from_file_csv()
         self.assertTrue(all(type(obj) == Square for obj in output))
 
     def test_load_from_file_csv_no_file(self):
