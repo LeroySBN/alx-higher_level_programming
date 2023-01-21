@@ -59,6 +59,6 @@ class Base:
         try:
             with open(filename, 'r') as file:
                 list_dicts = Base.from_json_string(file.read())
-                return [cls.create(**kwargs) for kwargs in  list_dicts]
+                return cls.create(**kwargs) for kwargs in list_dicts
         except IOError:
             return []
