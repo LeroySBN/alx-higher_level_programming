@@ -6,7 +6,6 @@ Module Base: Defines class Base
 
 import json
 import csv
-import turtle
 
 
 class Base():
@@ -20,9 +19,7 @@ class Base():
     __nb_objects = 0
 
     def __init__(self, id=None):
-        """
-        Initializes id
-        """
+        """Initializes id"""
         if id:
             self.id = id
         else:
@@ -71,52 +68,8 @@ class Base():
         """returns a list of instances"""
         filename = cls.__name__ + ".json"
         lst = []
-        try:
-            with open(filename, "r") as f:
-                instance = cls.from_json_string(f.read())
-            for i, d in enumerate(instance):
-                lst.append(cls.create(**instance[i]))
-        except:
-            pass
+        with open(filename, "r") as f:
+            instance = cls.from_json_string(f.read())
+        for i, d in enumerate(instance):
+            lst.append(cls.create(**instance[i]))
         return lst
-
-    @staticmethod
-    def draw(list_rectangles, list_squares):
-        """Draw Rectangles and Squares using the turtle module.
-        Args:
-            list_rectangles (list): A list of Rectangle objects to draw.
-            list_squares (list): A list of Square objects to draw.
-        """
-        turt = turtle.Turtle()
-        turt.screen.bgcolor("#b7312c")
-        turt.pensize(3)
-        turt.shape("turtle")
-
-        turt.color("#ffffff")
-        for rect in list_rectangles:
-            turt.showturtle()
-            turt.up()
-            turt.goto(rect.x, rect.y)
-            turt.down()
-            for i in range(2):
-                turt.forward(rect.width)
-                turt.left(90)
-                turt.forward(rect.height)
-                turt.left(90)
-            turt.hideturtle()
-
-        turt.color("#b5e3d8")
-        for sq in list_squares:
-            turt.showturtle()
-            turt.up()
-            turt.goto(sq.x, sq.y)
-
-        turt.down()
-        for i in range(2):
-            turt.forward(sq.width)
-            turt.left(90)
-            turt.forward(sq.height)
-            turt.left(90)
-            turt.hideturtle()
-
-        turtle.exitonclick()
