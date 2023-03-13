@@ -21,9 +21,12 @@
 * Python Recap -> [0x0C-python-almost_a_circle](./0x0C-python-almost_a_circle)
 * SQL - Introduction -> [0x0D-SQL_introduction](./0x0D-SQL_introduction)
 * SQL - More Queries -> [0x0E-SQL_more_queries](./0x0E-SQL_more_queries)
+* JavaScript - Warm up -> [0x12-javascript-warm_up](./0x12-javascript-warm_up)
 
 ## Python projects
 * [AirBnB Clone](https://github.com/leroysb/AirBnB_clone)
+
+***
 
 ## More info: Requirements
 
@@ -40,10 +43,24 @@
 * All files must be executable
 
 ### C Scripts
-* All files should be compiled on Ubuntu 20.04 LTS using gcc with tags
-`gcc -Wall -Werror -Wextra -pedantic -std=gnu89`
+* All files should be compiled on Ubuntu 20.04 LTS using gcc with tags `gcc -Wall -Werror -Wextra -pedantic -std=gnu89`
 * All files should end with a new line
 * All header files should be include guarded
 * No more than five functions per file
 * The code should use the [Betty](https://github.com/holbertonschool/Betty) style
 
+### JavaScript Scripts
+* All your files will be interpreted on Ubuntu 20.04 LTS using `node` (version 14.x)
+* All your files should end with a new line
+* All your files must be execuable
+* The first line of all your files should be exactly `#!/usr/bin/node`
+* Your code should be `semistandard` compliant (version 16.x.x). [Rules of Standard](https://standardjs.com/rules.html) + [semicolons on top](https://github.com/standard/semistandard)
+
+'''
+# Install Node 14
+$ curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+$ sudo apt-get install -y nodejs
+
+# Install semi-standard
+$ sudo npm install semistandard --global
+'''
