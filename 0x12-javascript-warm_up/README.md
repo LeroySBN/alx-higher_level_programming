@@ -6,6 +6,8 @@ JavaScript is used for many things. Here, you will use JavaScript for 2 reasons:
 * Scripting (same as we did with Python)
 * Web front-end
 
+![js](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/303/Javascript-535.png.jpeg)
+
 ## Resources
 * [Writing JavaScript Code](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics)
 * [Variables](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Variables)
