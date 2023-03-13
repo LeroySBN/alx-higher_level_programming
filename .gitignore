@@ -1,2 +1,11 @@
+# Emacs
 *~
+
+# python
 __pycache__/
+
+# javascript
+node_modules/**
+*.min.js
+bundle.js
+coverage/**
