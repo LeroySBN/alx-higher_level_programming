@@ -9,15 +9,12 @@ class Square extends Rectangle {
   }
 
   charPrint (c) {
-    let myChar;
-    if (c) {
-      myChar = c;
-    } else {
-      myChar = 'X';
+    if (c === undefined) {
+      c = 'X';
     }
     for (let i = 0; i < this.height; i++) {
       let row = '';
-      for (let j = 0; j < this.width; j++) row += myChar;
+      for (let j = 0; j < this.width; j++) row += c;
       console.log(row);
     }
   }
