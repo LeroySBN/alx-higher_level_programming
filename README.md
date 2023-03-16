@@ -61,11 +61,11 @@
 * The first line of all your files should be exactly `#!/usr/bin/node`
 * Your code should be `semistandard` compliant (version 16.x.x). [Rules of Standard](https://standardjs.com/rules.html) + [semicolons on top](https://github.com/standard/semistandard)
 
-'''
-Install Node 14
+```
+# Install Node 14
 $ curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
 $ sudo apt-get install -y nodejs
 
- Install semi-standard
+# Install semi-standard
 $ sudo npm install semistandard --global
-'''
+```
