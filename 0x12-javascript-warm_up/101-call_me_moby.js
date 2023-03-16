@@ -2,10 +2,7 @@
 
 exports.callMeMoby = function (x, theFunction) {
   while (x) {
-    function myFunction () {
-      theFunction();
-    }
-    myFunction();
+    theFunction();
     x--;
   }
 };
