@@ -235,7 +235,7 @@ File: [3-my_safe_filter_states.py](./3-my_safe_filter_states.py)
 
 ***
 
-### Cities by states
+### 4. Cities by states
 Script that lists all `cities` from the database `hbtn_0e_4_usa`
 * Your script should take 4 arguments: `mysql username`, `mysql password`, `database name` and `state name searched` (safe from MySQL injection)
 * You must use the module `MySQLdb` (`import MySQLdb`)
@@ -352,7 +352,7 @@ File: [5-filter_cities.py](./5-filter_cities.py)
 ***
 
 ### 6. First state model
-![ORM](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/f84fe6edb9436c8560996c6d72e17ea51dab28e1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20230317%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230317T093149Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=96f2829af52fd41f7782448c778e074fcf82e45030ca02632b8dcc1cac6b53ed)
+[![ORM](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/f84fe6edb9436c8560996c6d72e17ea51dab28e1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20230317%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230317T093149Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=96f2829af52fd41f7782448c778e074fcf82e45030ca02632b8dcc1cac6b53ed)]
 
 A python file that contains the class definition of a `State` and an instance `Base = declarative_base():`
 * `State` class:
