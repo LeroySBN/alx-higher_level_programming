@@ -6,28 +6,25 @@ import MySQLdb
 from sys import argv
 
 
-def sql_filter(username, passwd, database, state):
-    """
-    displays values in the states table where name matches the state argument
-    """
+if __name__ == '__main__':
     conn = MySQLdb.connect(
         host="localhost",
         port=3360,
-        user=username,
-        passwd=passwd,
-        db=database,
+        user=argv[1],
+        passwd=argv[2],
+        db=argv[3],
         charset="utf8"
     )
     cur = conn.cursor()
     cur.execute(
-        "SELECT * FROM states WHERE name = '{:s}' ORDER BY id ASC"
-        .format(state)
+        "SELECT * \
+        FROM states \
+        WHERE name = '{:s}' \
+        ORDER BY id ASC"
+        .format(argv[4])
     )
     query_rows = cur.fetchall()
     for row in query_rows:
         print(row)
     cur.close()
     conn.close()
-
-
-sql_filter(argv[1], argv[2], argv[3], argv[4])
