@@ -20,7 +20,8 @@ def sql_filter(username, passwd, database, state):
     )
     cur = conn.cursor()
     cur.execute(
-        "SELECT * FROM states WHERE name = '{:s}' ORDER BY id ASC".format(state)
+        "SELECT * FROM states WHERE name = '{:s}' ORDER BY id ASC"
+        .format(state)
     )
     query_rows = cur.fetchall()
     for row in query_rows:
