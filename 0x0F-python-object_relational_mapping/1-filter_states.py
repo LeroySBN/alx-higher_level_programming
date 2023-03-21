@@ -6,16 +6,13 @@ import MySQLdb
 from sys import argv
 
 
-def sql_filter(username, passwd, database):
-    """
-    that lists all states with a name starting with N
-    """
+if __name__ == '__main__':
     conn = MySQLdb.connect(
         host="localhost",
         port=3360,
-        user=username,
-        passwd=passwd,
-        db=database,
+        user=argv[1],
+        passwd=argv[2],
+        db=argv[3],
         charset="utf8"
     )
     cur = conn.cursor()
@@ -27,6 +24,3 @@ def sql_filter(username, passwd, database):
         print(row)
     cur.close()
     conn.close()
-
-
-sql_filter(argv[1], argv[2], argv[3])
