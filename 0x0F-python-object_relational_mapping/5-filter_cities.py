@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """
-module 4-filter_cities:  lists all cities of searched state, using the database hbtn_0e_4_usa
+module 4-filter_cities:
+lists all cities of state, using the database hbtn_0e_4_usa
 """
 import MySQLdb
 from sys import argv
