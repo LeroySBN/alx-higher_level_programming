@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-module 4-filter_cities:
+module 5-filter_cities:
 lists all cities of state, using the database hbtn_0e_4_usa
 """
 import MySQLdb
@@ -8,7 +8,7 @@ from sys import argv
 
 
 if __name__ == '__main__':
-    conn = MySQLdb.connect(
+    terminal = MySQLdb.connect(
         host="localhost",
         port=3360,
         user=argv[1],
@@ -16,7 +16,7 @@ if __name__ == '__main__':
         db=argv[3],
         charset="utf8"
     )
-    cur = conn.cursor()
+    cur = terminal.cursor()
     cur.execute("\
     SELECT \
     ct.name \
