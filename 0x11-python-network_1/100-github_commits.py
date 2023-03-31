@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Python script that lists the 10 most recent commits on a given GitHub repository
+Python script that lists the 10 most recent github repo commits
 """
 from sys import argv
 import requests
