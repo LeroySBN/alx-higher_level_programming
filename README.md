@@ -20,6 +20,8 @@
 * Input/Output -> [0x0B-python-input_output](./0x0B-python-input_output)
 * Python Recap -> [0x0C-python-almost_a_circle](./0x0C-python-almost_a_circle)
 * Object-relational mapping -> [0x0F-python-object_relational_mapping](./0x0F-python-object_relational_mapping)
+* Network #0 -> [0x10-python-network_0](./0x10-python-network_0)
+* Network #1 -> [0x11-python-network_1](./0x10-python-network_1)
 
 ## Databases
 * SQL - Introduction -> [0x0D-SQL_introduction](./0x0D-SQL_introduction)
@@ -29,7 +31,7 @@
 * JavaScript - Warm up -> [0x12-javascript-warm_up](./0x12-javascript-warm_up)
 * JavaScript - Objects, Scopes and Closures -> [0x13-javascript_objects_scopes_closures](./0x13-javascript_objects_scopes_closures)
 
-## Python projects
+## Project
 * [AirBnB Clone](https://github.com/leroysb/AirBnB_clone)
 
 ***
