@@ -33,6 +33,7 @@
 
 ## Project
 * [AirBnB Clone](https://github.com/leroysb/AirBnB_clone)
+* [AirBnB clone Resources](./AirBnB_resources)
 
 ***
 
