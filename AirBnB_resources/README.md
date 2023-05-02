@@ -34,6 +34,19 @@
 * [Flask](https://palletsprojects.com/p/flask/)
 * [Jinja](https://jinja.palletsprojects.com/en/2.9.x/templates/)
 
+## RESTful API
+* [REST API concept page](https://intranet.alxswe.com/concepts/45)
+* [Learn REST: A RESTful Tutorial](https://www.restapitutorial.com/)
+* [Designing a RESTful API with Python and Flask](https://blog.miguelgrinberg.com/post/designing-a-restful-api-with-python-and-flask)
+* [HTTP access control (CORS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
+* [Flask cheatsheet](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/301/flask_cheatsheet.pdf)
+* [What are Flask Blueprints, exactly?](https://stackoverflow.com/questions/24420857/what-are-flask-blueprints-exactly)
+* [Flask](https://palletsprojects.com/p/flask/)
+* [Modular Applications with Blueprints](https://flask.palletsprojects.com/en/1.1.x/blueprints/)
+* [Flask tests](https://flask.palletsprojects.com/en/1.1.x/testing/)
+* [Flask-CORS](https://flask-cors.readthedocs.io/en/latest/)
+
+
 ***
 ## More Info
 
