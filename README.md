@@ -31,6 +31,7 @@
 * JavaScript - Warm up -> [0x12-javascript-warm_up](./0x12-javascript-warm_up)
 * JavaScript - Objects, Scopes and Closures -> [0x13-javascript_objects_scopes_closures](./0x13-javascript_objects_scopes_closures)
 * JavaScript - Web scraping -> [0x14-javascript-web_scraping](./0x14-javascript-web_scraping)
+* JavaScript - Web jQuery -> [0x15-javascript-web_jquery](./0x15-javascript-web_jquery)
 
 ## Project
 * [AirBnB Clone](https://github.com/leroysb/AirBnB_clone)
